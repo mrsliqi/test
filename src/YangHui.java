@@ -9,7 +9,7 @@ public class YangHui {
             //每行的首末元素赋值
             array[i][0] = 1;
             array[i][i] = 1;
-            //每行的其他元素赋值
+            //每行的其他元素赋值4
             for (int j = 1; j < array[i].length-1;j++){
                 array[i][j] = array[i-1][j-1] + array[i-1][j];
             }

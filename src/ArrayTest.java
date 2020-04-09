@@ -9,7 +9,7 @@ public class ArrayTest {
         }
         System.out.println();
 
-       // arr2 = arr1;//只是把1的地址给了2，修改了数组2的内容，数组1 也会跟着一起修改
+       // arr2 = arr1;//只是把1的地址给了2，修改了数组2的内容 ，数组1 也会跟着一起修改
         arr2 = arr1.clone();
         for (int i = 0;i < arr2.length;i++){
             if ( i % 2 == 0){
