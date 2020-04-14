@@ -14,6 +14,14 @@ public class PersonTest {
         p.eat();
         p.sleep();
         p.talk("Chinese");
+
+        Person p1 = new Person();
+        System.out.println(p1.name);
+
+        Person p2 = p;//讲p的指针地址赋给了p2
+        System.out.println(p2.name);
+        p2.age = 10;
+        System.out.println(p.age);
     }
 }
 class Person{
