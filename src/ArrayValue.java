@@ -39,7 +39,5 @@ public class ArrayValue {
                }
            }
            System.out.println("最小值：" + min);
-
-
     }
 }

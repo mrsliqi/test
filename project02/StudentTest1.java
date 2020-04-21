@@ -64,7 +64,7 @@ class Student1{
     int number;
     int state;
     int score;
-    public String info(){
+    public String info()   {
         return "学号" + number + ",班级" + state + ",成绩" + score;
     }
 }

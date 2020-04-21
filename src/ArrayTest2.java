@@ -65,7 +65,7 @@ public class ArrayTest2 {
             }
         }
         if (isFlag1){
-            System.out.println("不存在要找的元素");
+            System.out.println("不存在要找de元素");
         }
     }
 }
