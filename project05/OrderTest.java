@@ -7,7 +7,7 @@ public class OrderTest {
         order.orderProtected = 2;
         order.orderPublic = 3;
 
-        order.setOrderDefault();
+        order.OrderDefault();
 
     }
 }

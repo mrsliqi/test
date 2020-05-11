@@ -3,6 +3,10 @@ package project01;
 public class Bank {
     private Customer[] customer;//可存放多个客户的数组
     private int numberOfCustomer;//记录客户的个数
+
+    /**
+     * 初始化数组
+     */
     public Bank(){
         customer = new Customer[10];
     }

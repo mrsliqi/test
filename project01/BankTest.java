@@ -11,6 +11,6 @@ public class BankTest {
         bank.addCustomer("T","om");
         bank.getCustomer(1).setBccount(new Bccount(5000));
         bank.getCustomer(1).getBccount().deposit(500);
-        System.out.println(bank.getNumberOfCustomer());
+        System.out.println("用户的个数" + bank.getNumberOfCustomer());
     }
 }
