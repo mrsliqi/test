@@ -15,6 +15,9 @@ public class CricleTest {
 class Cricle{
     private double radius;
     private int id;//每个圆的标号,自动被赋值
+    private static int total;//创建的圆的个数
+    private static int init = 1001;//被所有对象所共享
+
     public double getRadius() {
         return radius;
     }
@@ -37,13 +40,9 @@ class Cricle{
         this();
         this.radius = radius;
     }
-
-    private static int total;//创建的圆的个数
-
     public static int getTotal() {
         return total;
     }
-    private static int init = 1001;//被所有对象所共享
     public double findArea(){
         return 3.14 * radius *radius;
     }
