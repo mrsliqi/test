@@ -1,20 +1,20 @@
 package project07.test;
 
 public class Circle {
-    private double radius;
+    private Double radius;
 
     public Circle() {
     }
 
-    public Circle(double radius) {
+    public Circle(Double radius) {
         this.radius = radius;
     }
 
-    public double getRedius() {
+    public Double getRadius() {
         return radius;
     }
 
-    public void setRedius(double radius) {
+    public void setRadius(Double radius) {
         this.radius = radius;
     }
 }

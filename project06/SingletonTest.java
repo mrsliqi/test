@@ -5,7 +5,6 @@ public class SingletonTest {
         Dank dank1 = Dank.instance;
         Dank.instance = null;
         Dank dank2 = Dank.instance;
-
         System.out.println(dank1 == dank2);
     }
 }
